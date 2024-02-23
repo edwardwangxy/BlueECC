@@ -14,7 +14,7 @@
 //
 
 import Foundation
-#if os(macOS) || os(iOS) || os(tvOS) || os(watchOS)
+#if os(macOS) || os(iOS) || os(tvOS) || os(watchOS) || os(visionOS)
 import CommonCrypto
 #elseif os(Linux)
 import OpenSSL
